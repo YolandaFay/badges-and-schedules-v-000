@@ -12,7 +12,7 @@ def assign_rooms(speaker_array)
     speaker_array[counter] = "Hello, #{speaker}! You'll be assigned to room #{counter+1}!"
     counter += 1 
   end
-end
+#end
 
 def assign_rooms(speaker_array)
   counter = 0
