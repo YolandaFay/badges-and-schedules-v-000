@@ -7,6 +7,7 @@ def batch_badge_creator(name_array)
 end
 
 def assign_rooms(speaker_array)
-  speaker_array.collect{|speaker| "Hello, #{speaker}! You'll be assigned to room #{counter}"}
+  counter = 0
+  speaker_array.collect{|speaker| "Hello, #{speaker}! You'll be assigned to room #{counter+=1}"}
 
 end
