@@ -11,6 +11,9 @@ def assign_rooms(speaker_array)
   speaker_array.collect{|speaker| "Hello, #{speaker}! You'll be assigned to room #{counter+=1}!"}
 end
 
-def printer()
+def printer(attendees)
+  batch_badge_creator(attendees)
+  attendees.collect{|name| puts name}
+  
   
 end
