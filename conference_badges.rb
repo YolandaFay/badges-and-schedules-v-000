@@ -12,7 +12,7 @@ def assign_rooms(speaker_array)
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees)
+  batch_badge_creator(attendees).collect{|attendee| puts attendee}
    
   attendees.each do |name|
     puts name
