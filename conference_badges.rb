@@ -14,9 +14,6 @@ end
 def printer(attendees)
   batch_badge_creator(attendees).collect{|attendee| puts attendee}
    
-  attendees.each do |name|
-    puts name
-  end
   
   assign_rooms(attendees)
   
